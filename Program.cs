@@ -38,9 +38,11 @@ namespace test
             Console.WriteLine("Q5a");
             int m = 18;
             int n = 5;
+            Console.WriteLine("m = " + m);
+            Console.WriteLine("n = " + n);
             int expected = m * (m - n);
-            Console.WriteLine(foobar(m, n));
-            Console.WriteLine(expected);
+            Console.WriteLine("expected (m * (m - n): " + expected);
+            Console.WriteLine("actual count: " + foobar(m, n));
         }
 
         public static bool bracket_matcher(string sentence)
